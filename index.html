@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Eval API</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+        <div class="row">
+                <h1 class="display-4 text-center mt-5 mb-5">API METEO</h1>
+        </div>
+
+        <div class="row justify-content-center text-center">
+                <div class="col-4 offset-2 d-flex ">
+                        <input type="text" id="user-choice" placeholder="Saisissez une ville" >
+                        <button id="main-btn" class="btn btn-outline-success">🌤️ ?</button>
+                </div>
+        </div>
+
+        <div class="row justify-content-center text-center mt-5" id="city-infos">
+        </div>
+
+        <div class="row mt-5">
+                <h1 class="display-3 text-center">OU</h1>
+                <p class="lead text-center">Utilisez la géolocalisation en cliquant sur le bouton suivant</p>
+        </div>
+
+        <div class="row mt-5">
+                <div class="col-4 m-auto text-center">
+                        <button id="gps-btn" class="btn btn-outline-info">🧭 ?</button>
+                </div>
+        </div>
+
+        <div class="row justify-content-center text-center mt5" id="gps-infos">
+        </div>
+
+
+
+
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+</html>
